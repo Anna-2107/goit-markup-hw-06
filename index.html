@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
@@ -28,13 +28,11 @@
     <!--Header-->
 
     <header class="header">
-      <div class="container header-container">
+      <div class="header-inner container">
         <nav class="nav-container">
           <a class="logo active" href="./index.html"
             >Web<span class="logo-accent">Studio</span></a
           >
-          <!--.index.html-->
-
           <ul class="nav-list">
             <li>
               <a class="header-link active" href="./index.html">Studio</a>
@@ -80,7 +78,9 @@
         <div class="container">
           <h1 class="zagolovok">Effective Solutions for Your Business</h1>
 
-          <button class="button" type="button">Order Service</button>
+          <button class="button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
