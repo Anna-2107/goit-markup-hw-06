@@ -352,7 +352,7 @@
 
       <!--Section_4 - Our Portfolio-->
 
-      <section class="portfolio">
+      <section class="portfolio-section">
         <div class="container">
           <h2 class="drugoizagolovok">Our Portfolio</h2>
           <ul class="portfolio-ul">
@@ -594,6 +594,7 @@
                       ./images/portfolio/OnlineCourses@2x.jpg 2x
                     "
                   />
+
                   <source
                     media="(min-width: 768px)"
                     srcset="
@@ -651,7 +652,7 @@
 
         <!--Footer-socials-->
 
-        <div class="footer-socials">
+        <div class="footer-accent">
           <p class="social">Social media</p>
           <ul class="footer-ul">
             <li class="footer-link">
@@ -714,7 +715,7 @@
 
     <!--Modal-->
     <!-- is-open -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" type="button">
           <svg width="8" height="8" class="svg-close">
@@ -795,13 +796,82 @@
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="checkbox-link" href="#">Privacy Policy</a>
+              <span class="label-mobile">
+                I accept the terms and conditions of the
+                <a class="checkbox-link" href="#">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="send-button">Send</button>
         </form>
       </div>
+    </div>
+
+    <!-- Mobile menu -->
+
+    <div class="mobile-container is-hidden">
+      <button class="mobile-button">
+        <svg class="mobile-menu-icon" width="8" height="8">
+          <use href="./images/icons-modal.svg#icon-close-black-18dp-2-1"></use>
+        </svg>
+      </button>
+      <ul class="mobile-list list">
+        <li class="mobile-item">
+          <a class="mobile-link link current" href="#">Studio</a>
+        </li>
+        <li class="mobile-item">
+          <a class="mobile-link link" href="#">Portfolio</a>
+        </li>
+        <li class="mobile-item">
+          <a class="mobile-link link" href="#">Contacts</a>
+        </li>
+      </ul>
+      <ul class="mobile-contacts list">
+        <li class="mobile-connection">
+          <a
+            class="mobile-connection-link link link-accent"
+            href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="mobile-connection">
+          <a
+            class="mobile-connection-link link"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="mobile-icon-ul list">
+        <li class="mobile-icon-list">
+          <a class="mobile-icon" href="#">
+            <svg class="icon-fill" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-icon-list">
+          <a class="mobile-icon" href="#">
+            <svg class="icon-fill" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-icon-list">
+          <a class="mobile-icon" href="#">
+            <svg class="icon-fill" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-icon-list">
+          <a class="mobile-icon" href="#">
+            <svg class="icon-fill" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
